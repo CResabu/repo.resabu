@@ -1,0 +1,7 @@
+echo "# repo.resabu" >> README.md
+git init
+git add README.md
+git commit -m "Bonjour c'est Resabu"
+git branch -M main
+git remote add origin https://github.com/CResabu/repo.resabu.git
+git push -u origin main
